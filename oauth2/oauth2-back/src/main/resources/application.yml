@@ -1,4 +1,12 @@
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: bungsoo71@gmail.com
+    password: grwvedjvyeotysqq
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
   servlet:
     multipart:
       max-file-size: 100MB
@@ -57,4 +65,4 @@ jwt:
   secret: XLdUma5wd6YdAdUHqvnWxJpWq8Djkf6HP7PuJOvm6sHqE4TrlLBU6fC3CyPlpTn9
   
 file:
-  path: C:/kbs/aws_20221228_kbs/workspace/AWS_oauth2_study_20230510/oauth2/oauth2-back/upload/
+  path: C:/kbs/workspace/-AWS-oauth2-Study-202305/oauth2/oauth2-back/upload/
